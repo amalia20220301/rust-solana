@@ -7,17 +7,23 @@ solana-keygen new --no-bip39-passphrase -o /Users/mrzhao/.config/solana/nft-mark
 
 ## 创建一个token
 ```shell
-# token: C1bcLasYDLwV3mSL5hW4g6SoYT324xxuyjnkpB3PvGPk
+#Creating token Kw4VG8DBxZSHi3CKkX1gYCsiyACNTcukuKAK3umAsn9
+#
+#Signature: 5UyeA4Qf4k9dpGX94sqSqaiE4HM4STBnYFaY9kvqY1p8uH3QugXu7W4vnv93MrkizQzMcXuSETE14dgkjgAn5TVq
 spl-token create-token
 ```
 
 ## 创建一个token account
 
 ```shell
-# token account: CVKQJyZ7qNyKnxCMLbxEEpZkVh7iMzDLbfRUHRJ9V26L
-spl-token create-account C1bcLasYDLwV3mSL5hW4g6SoYT324xxuyjnkpB3PvGPk
+#Creating account 4j4H72oFJRR9S26W8fCHg8rVdWMcNDgxyW4FjkAdzPxj
+#
+#Signature: 35wVAKqjrRMhHjKYwPWkoL3eJvVDxByhAhutuN2jgXN9Rz4d3NbvEY8vjxMjDTwKopXJqCor5uUmNaMoycjJbnwJ
+spl-token create-account Kw4VG8DBxZSHi3CKkX1gYCsiyACNTcukuKAK3umAsn9
 ```
 
+- token holding: https://explorer.solana.com/address/BfYN4TRAWRtb43vBEXgiYkux6xbDUDvXwef392nxrpmz/tokens?cluster=devnet
+- 
 ## Mint token
 
 ```shell
